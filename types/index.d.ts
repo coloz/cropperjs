@@ -113,7 +113,7 @@ declare namespace Cropper {
     cropmove?(event: CustomEvent): void;
     cropstart?(event: CustomEvent): void;
     data?: Data;
-    dragMode?: DragMode;
+    dragMode?: string;
     guides?: boolean;
     highlight?: boolean;
     minCanvasHeight?: number;
